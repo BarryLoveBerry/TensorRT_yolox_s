@@ -1,0 +1,3 @@
+/root/Downloads/Yolox_tensorRT/yolox_tensorRT_hand/build/CMakeFiles/rebuild_cache.dir
+/root/Downloads/Yolox_tensorRT/yolox_tensorRT_hand/build/CMakeFiles/yolox.dir
+/root/Downloads/Yolox_tensorRT/yolox_tensorRT_hand/build/CMakeFiles/edit_cache.dir
