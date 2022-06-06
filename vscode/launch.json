@@ -1,0 +1,34 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    // 假设当前workspace的路径为:“C:\Users\admin\Desktop\test”，
+    // workspace文件夹下的结构如下（+表示下一层）：
+
+    // C:\Users\admin\Desktop\test
+    // +.vscode
+    // ++tasks.json
+    // ++launch.json
+    // +main.cpp
+    // ${workspaceFolder} :表示当前workspace文件夹路径，也即C:\Users\admin\Desktop\test
+    // ${workspaceRootFolderName}:表示workspace的文件夹名，也即test
+    // ${file}:文件自身的绝对路径，也即C:\Users\admin\Desktop\test.vscode\launch.json
+    // ${relativeFile}:文件在workspace中的路径，也即.vscode\launch.json
+    // ${fileBasenameNoExtension}:当前文件的文件名，不带后缀，也即launch
+    // ${fileBasename}:当前文件的文件名，launch.json
+    // ${fileDirname}:文件所在的文件夹路径，也即C:\Users\admin\Desktop\test.vscode
+    // ${fileExtname}:当前文件的后缀，也即.json
+    // ${lineNumber}:当前文件光标所在的行号
+    // ${env:PATH}:系统中的环境变量
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

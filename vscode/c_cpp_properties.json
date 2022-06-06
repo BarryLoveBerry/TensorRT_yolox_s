@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/opencv4/**",
+                "/usr/local/cuda-11.0/include/**",
+                "/root/TensorRT-7.2.3.4/include/**",
+                "/root/Downloads/cuda/include/**",
+                "/root/miniconda3/include/python3.8/**",
+                "/root/TensorRT-7.2.3.4/include",
+                "/usr/local/cuda-11.0/targets/x86_64-linux/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/7/include/cilk"
+            ],
+            "defines": [
+                "__CUDACC__",
+                "HAS_PYTHON"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "/usr/local/include/opencv4/**",
+                    "/usr/local/cuda-11.0/include/**",
+                    "/root/TensorRT-7.2.3.4/include/**",
+                    "/root/Downloads/cuda/include/**",
+                    "/root/miniconda3/include/python3.8/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
